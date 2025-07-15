@@ -10,20 +10,20 @@ E1: Calculate $y(1.2)$ for $y' = -y^2, y(1) = 1$ with $h = 0.1$
 
 [2.](p2.c) Write a program using Taylor series method of second order to solve the initial value problem $y'= f(x, y), y(x_0) = y_0$ . User shall give the expression for $y''$ . Input the step length $h$ and the number of steps of integration.  
 
-    Test your program on exercises (E2) and (E3).
-      
-    E2: Solve $y' = 2x + 3y, y(0) = 1$ in the interval $[0, 0.4]$ with $h = 0.2$
+Test your program on exercises (E2) and (E3).
     
-    E3: Solve $y' = x + \sin(y), y(1) = 1$ in the ingterval $[1, 1.2]$ with $h = 0.1$
+E2: Solve $y' = 2x + 3y, y(0) = 1$ in the interval $[0, 0.4]$ with $h = 0.2$
+
+E3: Solve $y' = x + \sin(y), y(1) = 1$ in the ingterval $[1, 1.2]$ with $h = 0.1$
 
 [3.](p3.c) Write a program using Runge-Kutta second order method to solve the initial value problem $y' = f(x, y), y(x_0) = y_0$. Input the step length $h$ and the number of
 steps of mtegration. 
 
-    Test your program on exercises (E6) and (E7)
+Test your program on exercises (E6) and (E7)
 
-    E6: Solve $y' = x + y^2, y(0) = 1$ on the interval $[0, 0.4]$ with $h = 0.2$
+E6: Solve $y' = x + y^2, y(0) = 1$ on the interval $[0, 0.4]$ with $h = 0.2$
 
-    E7: Find $y(1.2)$ for $y' = \frac{y - x}{y + x}, y(1) = 2$ with $h= 0.1$
+E7: Find $y(1.2)$ for $y' = \frac{y - x}{y + x}, y(1) = 2$ with $h= 0.1$
 
 [4.](p4.c) Write a program using fourth order classical Runge-Kutta method to solve the initial value problem $y' = f(x, y), y(x_0) = y_0. Input the step length $h$ and the number of steps of integration. 
 
