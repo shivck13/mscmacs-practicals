@@ -2,7 +2,7 @@
 
 ### Index
 #### Session 1
-1. Write a program using Euler's method to solve the initial value problem $y' = f(x, y), y(x_0) = y_0$ . INput the step length $h$ and the number of steps of integration. 
+1. (↗️)[p1.c] Write a program using Euler's method to solve the initial value problem $y' = f(x, y), y(x_0) = y_0$ . INput the step length $h$ and the number of steps of integration. 
 
     Test your program on E1:
     
@@ -90,7 +90,7 @@ initial value problems.
     E12:
 
     E13:
-    
+
 
 14. Write a program to solve
     $\frac{\partial^2 u}{\partial t^2} = \frac{\partial^2 u}{\partial^2 x^2}, 0 \leq x \leq a, t \geq 0,$
