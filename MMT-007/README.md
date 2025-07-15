@@ -74,9 +74,80 @@ E6: Solve BVP $x^2y'' - 2y + x = 0, y(2) = 0, y(3) = 0$ with $h = 0.25$
 
 Use Dirichlet boundary conditions. Use a method of second order and uniform step length $h$ along $x$ and $y$ directions. Solve the resulting equations by Gauss elimination method. Test your program on exercises (E2) and (E3).
 
-E2:
+E2: 
+Find the solution of
+$\nabla^2 u = 0 \quad \text{in } R$
+subject to the given region $R$ and boundary conditions using the five-point formula.
+
+**(a)**
+Region: square
+$0 \leq x \leq 1,\; 0 \leq y \leq 1$
+Boundary condition:
+$u(x, y) = x - y$ on $\Gamma$
+Assume $h = \frac{1}{3}$
+
+**(b)**
+Region: rectangle
+$0 \leq x \leq 3,\; 0 \leq y \leq 2$
+Boundary condition:
+$u(x, y) = x^2 - 3y^2$ on $\Gamma$
+Assume $h = 1.0$
+
+**(c)**
+Region: triangle
+$0 \leq x \leq 1,\; 0 \leq y \leq 1,\; 0 \leq x + y \leq 1$
+Boundary condition:
+$u(x, y) = x^2 - y^2$ on $\Gamma$
+Assume $h = \frac{1}{3}$
+
+**(d)**
+Region: rectangle
+$0 \leq x \leq \frac{5}{6},\; 0 \leq y \leq 1$
+Boundary condition:
+$u(x, y) = x - y$ on $\Gamma$
+Assume $h = \frac{1}{3}$
+
 
 E3:
+Find the solution of
+$\nabla^2 u = G(x, y) \quad \text{in } R$
+subject to the given $R$, $G$, and boundary conditions, using the five-point formula.
+
+**(a)**
+Region: square
+$0 \leq x \leq 1,\; 0 \leq y \leq 1$
+Source term:
+$G(x, y) = 2x + 3y$
+Boundary condition:
+$u(x, y) = x - y$ on $\Gamma$
+Assume $h = \frac{1}{3}$
+
+**(b)**
+Region: rectangle
+$0 \leq x \leq 3,\; 0 \leq y \leq 2$
+Source term:
+$G(x, y) = x - y$
+Boundary condition:
+$u(x, y) = x^2 - 3y^2$ on $\Gamma$
+Assume $h = 1.0$
+
+**(c)**
+Region: triangle
+$0 \leq x \leq 1,\; 0 \leq y \leq 1,\; 0 \leq x + y \leq 1$
+Source term:
+$G(x, y) = x^2 + y^2$
+Boundary condition:
+$u(x, y) = x^2 - y^2$ on $\Gamma$
+Assume $h = \frac{1}{3}$
+
+**(d)**
+Region: rectangle
+$0 \leq x \leq \frac{5}{6},\; 0 \leq y \leq 1$
+Source term:
+$G(x, y) = 2x + 3y$
+Boundary condition:
+$u(x, y) = x - y$ on $\Gamma$
+Assume $h = \frac{1}{3}$
 
 [13.](p13.c) Write a program to solve
 $\frac{\partial u}{\partial t} = \frac{\partial^2 u}{\partial^2 x^2}, 0 \leq x \leq a, t \geq 0,$  
@@ -92,9 +163,35 @@ Input $h, k$ and number of steps $n$ . Solve the tridiagonal systems in (ii) and
 Test your program on exercises (E12) and (E13).
 
 E12:
+Find the solution of the following initial boundary value problem, subject to the given initial and boundary conditions:
+
+$$
+\frac{\partial u}{\partial t} = \frac{\partial^2 u}{\partial x^2}, \quad u(x, 0) = 
+\begin{cases}
+2x, & \text{for } x \in [0, \frac{1}{2}] \\
+2(1 - x), & \text{for } x \in [\frac{1}{2}, 1]
+\end{cases}
+$$
+
+Boundary conditions:
+$u(0, t) = 0 = u(1, t)$
+
+Use $h = 0.2$. (Note the symmetry in the problem and the solution about $x = \frac{1}{2}$)
 
 E13:
+Find the solution of the following initial boundary value problem, subject to the given initial and boundary conditions:
 
+$$
+\frac{\partial u}{\partial t} = \frac{\partial^2 u}{\partial x^2}, \quad 0 \leq x \leq 1
+$$
+
+Initial condition:
+$u(x, 0) = \sin(2\pi x)$, $0 \leq x \leq 1$
+
+Boundary conditions:
+$u(0, t) = 0 = u(1, t)$
+
+Assume $h = 0.25$
 
 [14.](p14.c) Write a program to solve
 $\frac{\partial^2 u}{\partial t^2} = \frac{\partial^2 u}{\partial^2 x^2}, 0 \leq x \leq a, t \geq 0,$
@@ -112,5 +209,43 @@ Input $h, k$ and number of steps. Solve the tridiagonal system in (ii) using Gau
 Test your program on Example 7 and (E15)
 
 Exa7:
+$$
+\frac{\partial^2 u}{\partial t^2} = \frac{\partial^2 u}{\partial x^2}, \quad 0 \leq x \leq 1
+$$
+
+with initial and boundary conditions:
+
+* $u(x, 0) = \sin(\pi x), \quad 0 \leq x \leq 1$
+* $\frac{\partial u}{\partial t}(x, 0) = 0, \quad 0 \leq x \leq 1$
+* $u(0, t) = 0, \quad u(1, t) = 0, \quad t > 0$
+
+Use:
+
+1. The explicit scheme (equation 48)
+2. The implicit scheme (equation 52)
+
+Use the central difference approximation to the derivative to obtain the initial condition. Assume:
+
+* $h = \frac{1}{4}$
+* $r = \frac{1}{2}$
+
+Integrate for **one time step**.
+
+Compare with the exact solution:
+
+$$
+u(x, t) = \sin(\pi x) \cos(\pi t)
+$$
+
 
 E15:
+* $h = \frac{1}{4}$
+* $r = \frac{1}{3}$
+
+Integrate for **one time step**.
+
+Compare with the exact solution:
+
+$$
+u(x, t) = \sin(\pi x) \cos(\pi t)
+$$
