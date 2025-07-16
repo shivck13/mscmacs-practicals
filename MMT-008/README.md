@@ -36,7 +36,36 @@ Also, extend the program to check that the columns of $A$ form an orthonormal ba
 
 12. Write a programme in 'C' language to find the principal components from a covariance matrix and test it for the data given in Example 1.
 
+$$
+\Sigma = 
+\begin{bmatrix}
+1 & -2 & 0 \\
+-2 & 5 & 0 \\
+0 & 0 & 2
+\end{bmatrix}
+$$
+
+
+
 13. Write a programme in 'C' language to find the principal components from a correlation matrix and test it for the data given in Example 2.
+
+$$
+\Sigma =
+\begin{bmatrix}
+1 & 4 \\
+4 & 100
+\end{bmatrix}
+$$
+
+$$
+R =
+\begin{bmatrix}
+1 & 0.4 \\
+0.4 & 1
+\end{bmatrix}
+$$
+
+
 
 14. Write a programme in C-language to write the factor model of a covariance matrix given in Example 1
 

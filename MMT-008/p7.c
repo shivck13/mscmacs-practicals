@@ -2,7 +2,7 @@
 #include <math.h>
 
 int main() {
-    int n;
+    int n = 3;
     printf("Enter number of observations: ");
     scanf("%d", &n);
 
