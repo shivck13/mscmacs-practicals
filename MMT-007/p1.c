@@ -1,7 +1,7 @@
 /*
  * @Author: Shiv C Kushawah
  * @Date: 2025-07-12
- * @File: s1p1.c
+ * @File: p1.c
  * @Description: 
  * @Copyright: © Shiv C Kushawah
  */
