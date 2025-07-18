@@ -13,16 +13,16 @@ This repository contains all practical codes developed for the practical session
 
 | Semester   | Course Code | Title                                        | Credits |
 | ---------- | ----------- | -------------------------------------------- | ------- |
-| Semester 1 | MMT-001     | Programming & Data Structures                | 4       |
-| Semester 1 | MMT-007     | Differential Equations & Numerical Solutions | 4       |
-| Semester 2 | MMT-008     | Probability and Statistics                   | 8       |
-| Semester 3 | MMT-009     | Mathematical Modelling                       | 2       |
-| Semester 3 | MMTE-001    | Graph Theory                                 | 4       |
-| Semester 3 | MMTE-003    | Pattern Recognition & Image Processing       | 4       |
-| Semester 3 | MMTE-004    | Computer Graphics                            | 2       |
-| Semester 4 | MMTE-005    | Coding Theory                                | 4       |
-| Semester 4 | MMTE-006    | Cryptography                                 | 4       |
-| Semester 4 | MMTE-007    | Soft Computing & its Applications            | 4       |
+| Semester 1 | [MMT-001](MMT-001)     | Programming & Data Structures                | 4       |
+| Semester 1 | [MMT-007](MMT-007)     | Differential Equations & Numerical Solutions | 4       |
+| Semester 2 | [MMT-008](MMT-008)     | Probability and Statistics                   | 8       |
+| Semester 3 | [MMT-009](MMT-009)     | Mathematical Modelling                       | 2       |
+| Semester 3 | [MMTE-001](MMTE-001)    | Graph Theory                                 | 4       |
+| Semester 3 | [MMTE-003](MMTE-003)    | Pattern Recognition & Image Processing       | 4       |
+| Semester 3 | [MMTE-004](MMTE-004)    | Computer Graphics                            | 2       |
+| Semester 4 | [MMTE-005](MMTE-005)    | Coding Theory                                | 4       |
+| Semester 4 | [MMTE-006](MMTE-006)    | Cryptography                                 | 4       |
+| Semester 4 | [MMTE-007](MMTE-007)    | Soft Computing & its Applications            | 4       |
 
 
 ### 🤝 Contributions
