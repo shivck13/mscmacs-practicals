@@ -1,9 +1,9 @@
 "Collection of all the practicals for MMT-008 - Probability and Statistics" 
 
 ### Index
-[1.](p1.c) Write a program in C-language to find the lower triangular square root of a pd matrix. Also test your program on (E6) of Unit [15.](p15.c)
+[1.](p1.c) Write a program in C-language to find the lower triangular square root of a pd matrix. Also test your program on (E6) of Unit 15
 
-[2.](p2.c) Consider $y = (y_1, y_2, y_3)^t ~ \mathcal{N}_3(\mu, \Sigma)$ . Write a program in C-language to find the marginal distributions of $y_1, y_2,$ and $y_3$ . Also extend it to find the conditional distribution of $y_1$, given $y_2$ and $y_3$ . Also test your program on Example 1 of Unit [16.](p16.c)
+[2.](p2.c) Consider $y = (y_1, y_2, y_3)^t ~ \mathcal{N}_3(\mu, \Sigma)$ . Write a program in C-language to find the marginal distributions of $y_1, y_2,$ and $y_3$ . Also extend it to find the conditional distribution of $y_1$, given $y_2$ and $y_3$ . Also test your program on Example 1 of Unit 16
 
 [3.](p3.c) Write a program in C-language to fit the model $Y_i = b_0 + b_1 X_{1i} + b_2 X_{2i} + e_i$ where $i = 1, 2, 3, 4, 5$ using the least squares estimates.
 
@@ -34,7 +34,7 @@ Also, extend the program to check that the columns of $A$ form an orthonormal ba
 
 [11.](p11.c) Write a program in 'C' language to find the classification of a population into one among $k$ populations.
 
-[12.](p12.c) Write a programme in 'C' language to find the principal components from a covariance matrix and test it for the data given in Example [1.](p1.c)
+[12.](p12.c) Write a programme in 'C' language to find the principal components from a covariance matrix and test it for the data given in Example 1
 
 $$
 \Sigma = 
@@ -47,7 +47,7 @@ $$
 
 
 
-[13.](p13.c) Write a programme in 'C' language to find the principal components from a correlation matrix and test it for the data given in Example [2.](p2.c)
+[13.](p13.c) Write a programme in 'C' language to find the principal components from a correlation matrix and test it for the data given in Example 2
 
 $$
 \Sigma =
@@ -60,8 +60,8 @@ $$
 $$
 R =
 \begin{bmatrix}
-1 & [0.](p0.c)4 \\
-[0.](p0.c)4 & 1
+1 & 0.4 \\
+0.4 & 1
 \end{bmatrix}
 $$
 
@@ -72,9 +72,9 @@ $$
 $$
 \Sigma =
 \begin{bmatrix}
-1 & [0.](p0.c)63 & [0.](p0.c)45 \\
-[0.](p0.c)63 & 1 & [0.](p0.c)35 \\
-[0.](p0.c)45 & [0.](p0.c)35 & 1
+1 & 0.63 & 0.45 \\
+0.63 & 1 & 0.35 \\
+0.45 & 0.35 & 1
 \end{bmatrix}
 $$
 

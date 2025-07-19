@@ -10,7 +10,7 @@
    i) North-west corner method, and
    ii) Matrix-Minimum method.  
 
-   Also, try this program on Example [8.](p8.c)
+   Also, try this program on Example 8
    $$
     \begin{array}{|c|c|c|c|c|}
     \hline
