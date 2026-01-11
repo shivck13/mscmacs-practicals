@@ -4,7 +4,7 @@
 1. Program 1: Write a program that constructs the adjacency matrix $A$ of an undirected, unweighted graph, given a sequence of edges as input. The program must perform the following operations:
 * print the degree sequence of the graph.
 * print the neighbours of a given vertex.
-* compute $Ak^$ for any positive integer $k$ given by the user.
+* compute $A^k$ for any positive integer $k$ given by the user.
 * print the number of walks of length $k$, between any two vertices.
 
 2. Program 2: Write a program to check whether a given graph is connected or not. (See Theorem 5 of Unit 2)
