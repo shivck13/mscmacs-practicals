@@ -10,13 +10,15 @@
 [4.](p4.c) Write a program in C-language to find the multiple correlation coefficient and the mean square error, if $\Sigma_{xx},\; \sigma_yy,$ and $\sigma_{xy}$ are given.
 
 [5.](p5.c) Write a program in 'C' languageto show that the matrix $A$ is orthogonal. 
-$$A = \frac{1}{2}
+$$
+A = \frac{1}{2}
 \begin{bmatrix}
 1 & -1 & 1 & -1 \\
 1 & -1 & -1 & 1 \\
 1 & 1 & 1 & 1 \\
 1 & 1 & -1 & -1
-\end{bmatrix}$$
+\end{bmatrix}
+$$
 
 Also, extend the program to check that the columns of $A$ form an orthonormal basis of $R^4$
 
